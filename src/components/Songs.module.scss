@@ -1,0 +1,43 @@
+.listMusic {
+    overflow: auto;
+    height: 25rem;
+    table {
+        width: 100%;
+    }
+}
+
+th {
+    width: 12rem;
+    color: #fff;
+    font-size: 1.3rem;
+}
+.id {
+    width: 5rem;
+}
+.title {
+    width: 17rem;
+}
+td {
+    color: #a3a3a3;
+    font-size: 1.2rem;
+}
+tbody {
+    background-color: #1e293b;
+    tr {
+        &:hover {
+            background-color: #475569;
+            cursor: pointer;
+            text-shadow: 1px 0 1px;
+            // font-weight: bold !important;
+        }
+    }
+}
+.active {
+    td {
+        color: #5eead4;
+    }
+}
+.addSong {
+    text-decoration: none;
+    color: #1e293b;
+}

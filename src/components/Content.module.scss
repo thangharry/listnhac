@@ -1,0 +1,33 @@
+.wrapContent {
+    height: calc(100vh - 6rem);
+    background-color: #334155;
+    width: 100%;
+
+    .contentLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 2rem 0 0 2rem;
+        p {
+            color: #38bdf8;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        h2 {
+            color: #a3a3a3;
+        }
+    }
+    .wrapImg {
+        margin-top: 3rem;
+    }
+    .image {
+        width: 20rem;
+
+        object-fit: cover;
+    }
+
+    .contentRight {
+        margin-left: 2rem;
+        padding: 1rem;
+    }
+}
